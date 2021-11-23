@@ -45,7 +45,7 @@ jobs:
 
       # Cache files between builds
       # - name: Setup | Cache Cargo
-      #   uses: actions/cache@v2
+      #   uses: actions/cache@v2.1.7
       #   with:
       #     path: |
       #       ~/.cargo/registry
@@ -81,7 +81,7 @@ jobs:
 
       # Cache files between builds
       # - name: Setup | Cache Cargo
-      #   uses: actions/cache@v2
+      #   uses: actions/cache@v2.1.7
       #   with:
       #     path: |
       #       ~/.cargo/registry
@@ -120,7 +120,7 @@ jobs:
 
       # Cache files between builds
       - name: Setup | Cache Cargo
-        uses: actions/cache@v2
+        uses: actions/cache@v2.1.7
         with:
           path: |
             ~/.cargo/registry
